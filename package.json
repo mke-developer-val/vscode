@@ -1,9 +1,9 @@
 {
-  "name": "code-oss-dev",
-  "version": "1.102.0",
-  "distro": "1f9299d1fbccfb501bade57b42c8d343c1e4b5a5",
+  "name": "vibecode",
+  "version": "1.0.0",
+  "description": "Val - Code - A version of VS Code with a fresh vibe",
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "Val - Code Team"
   },
   "license": "MIT",
   "main": "./out/main.js",

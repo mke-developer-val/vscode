@@ -1,41 +1,58 @@
-<!-- BEGIN MICROSOFT SECURITY.MD V0.0.9 BLOCK -->
+# Security Policy
 
-## Security
+## Reporting Security Vulnerabilities
 
-Microsoft takes the security of our software products and services seriously, which includes all source code repositories managed through our GitHub organizations, which include [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet) and [Xamarin](https://github.com/xamarin).
+**VibeCode** takes security and the safety of our users seriously. We appreciate the work done by security researchers and the security community to help us identify and fix security vulnerabilities.
 
-If you believe you have found a security vulnerability in any Microsoft-owned repository that meets [Microsoft's definition of a security vulnerability](https://aka.ms/security.md/definition), please report it to us as described below.
+### Reporting a Vulnerability
 
-## Reporting Security Issues
+**Please do not report security vulnerabilities through public GitHub issues or discussions.**
 
-**Please do not report security vulnerabilities through public GitHub issues.**
+If you believe you've found a security vulnerability in VibeCode, please report it to our security team by emailing [security@vibecode.dev](mailto:security@vibecode.dev).
 
-Instead, please report them to the Microsoft Security Response Center (MSRC) at [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report).
+### What to Include in Your Report
 
-If you prefer to submit without logging in, send email to [secure@microsoft.com](mailto:secure@microsoft.com).  If possible, encrypt your message with our PGP key; please download it from the [Microsoft Security Response Center PGP Key page](https://aka.ms/security.md/msrc/pgp).
+To help us better understand and address the issue, please include the following information in your report:
 
-You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Additional information can be found at [microsoft.com/msrc](https://www.microsoft.com/msrc).
+- A detailed description of the vulnerability
+- Steps to reproduce the issue
+- The version of VibeCode where you found the vulnerability
+- Any proof-of-concept code or exploit scripts
+- Your contact information (optional, but helpful if we need to follow up)
 
-Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
+### Our Commitment
 
-  * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
+- We will acknowledge receipt of your report within 3 business days
+- We will keep you informed about the progress of the vulnerability resolution
+- We will credit you in our security advisories (unless you prefer to remain anonymous)
 
-This information will help us triage your report more quickly.
+### Responsible Disclosure
 
-If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Program](https://aka.ms/security.md/msrc/bounty) page for more details about our active programs.
+We ask that you:
+- Allow us a reasonable amount of time to address the vulnerability before disclosing it publicly
+- Make a good faith effort to avoid privacy violations, data destruction, and service interruptions during your research
 
-## Preferred Languages
+### Scope
 
-We prefer all communications to be in English.
+This security policy applies to the VibeCode core editor and its official extensions. For third-party extensions, please report vulnerabilities directly to their maintainers.
 
-## Policy
+## Vulnerability Management Process
 
-Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://aka.ms/security.md/cvd).
+1. **Confirmation**: Our security team will confirm the reported vulnerability
+2. **Assessment**: We will assess the severity and impact of the vulnerability
+3. **Fix Development**: Our developers will work on a fix
+4. **Testing**: The fix will be thoroughly tested
+5. **Release**: We will release a security update
+6. **Disclosure**: We will publish a security advisory
 
-<!-- END MICROSOFT SECURITY.MD BLOCK -->
+## Security Updates
+
+We strongly recommend keeping VibeCode updated to the latest version to ensure you have all security fixes. Security updates are typically included in our regular release cycle.
+
+## Contact
+
+For any security-related questions or concerns, please contact us at [security@vibecode.dev](mailto:security@vibecode.dev).
+
+## Acknowledgments
+
+We would like to thank all security researchers and users who report security vulnerabilities to us. Your efforts help make VibeCode more secure for everyone.

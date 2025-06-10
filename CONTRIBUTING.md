@@ -1,99 +1,105 @@
-# Contributing to VS Code
+# Contributing to VibeCode
 
-Welcome, and thank you for your interest in contributing to VS Code!
+Welcome, and thank you for your interest in contributing to VibeCode!
 
-There are several ways in which you can contribute, beyond writing code. The goal of this document is to provide a high-level overview of how you can get involved.
+VibeCode is an open-source project, and we appreciate your help to make it better. There are several ways you can contribute, from reporting bugs to submitting code changes. This guide will help you get started.
+
+## Getting Started
+
+Before you start contributing, please:
+
+1. Read our [Code of Conduct](CODE_OF_CONDUCT.md)
+2. Check if your issue or feature request already exists
+3. Follow the guidelines below for reporting issues or submitting changes
 
 ## Asking Questions
 
+Have a question? Here's how you can get help:
 
-Have a question? Instead of opening an issue, please ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio-code) using the tag `visual-studio-code`.
-
-The active community will be eager to assist you. Your well-worded question will serve as a resource to others searching for help.
-
-## Providing Feedback
-
-Your comments and feedback are welcome, and the development team is available via a handful of different channels.
-
-See the [Feedback Channels](https://github.com/microsoft/vscode/wiki/Feedback-Channels) wiki page for details on how to share your thoughts.
+1. Search the [documentation](https://github.com/microsoft/vibecode#readme)
+2. Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/vibecode) using the `vibecode` tag
+3. Join our [GitHub Discussions](https://github.com/microsoft/vibecode/discussions)
 
 ## Reporting Issues
 
-Have you identified a reproducible problem in VS Code? Do you have a feature request? We want to hear about it! Here's how you can report your issue as effectively as possible.
+Found a bug or have a feature request? We'd love to hear about it! Before creating a new issue:
 
-### Identify Where to Report
+1. Search the [existing issues](https://github.com/microsoft/vibecode/issues) to avoid duplicates
+2. Check if the issue persists after [disabling all extensions](https://vscode-docs.readthedocs.io/en/latest/editor/extension-gallery/#disable-an-extension)
 
-The VS Code project is distributed across multiple repositories. Try to file the issue against the correct repository. Check the list of [Related Projects](https://github.com/microsoft/vscode/wiki/Related-Projects) if you aren't sure which repo is correct.
+### Creating a Good Issue
 
-Can you recreate the issue even after [disabling all extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_disable-an-extension)? If you find the issue is caused by an extension you have installed, please file an issue on the extension's repo directly.
+When creating a new issue, please include:
 
-### Look For an Existing Issue
+- A clear, descriptive title
+- Steps to reproduce the issue
+- Expected vs actual behavior
+- Screenshots or screen recordings if relevant
+- Your VibeCode version and OS
 
-Before you create a new issue, please do a search in [open issues](https://github.com/microsoft/vscode/issues) to see if the issue or feature request has already been filed.
+Use reactions (👍 for upvote, 👎 for downvote) instead of "+1" comments on existing issues.
 
-Be sure to scan through the [most popular](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc) feature requests.
+## Feature Requests
 
-If you find your issue already exists, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments). Use a reaction in place of a "+1" comment:
+We welcome feature requests! Before submitting:
 
-* 👍 - upvote
-* 👎 - downvote
+1. Check the [existing feature requests](https://github.com/microsoft/vibecode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request)
+2. Search the [VibeCode roadmap](https://github.com/microsoft/vibecode/wiki/Roadmap)
+3. Consider if your feature would be better implemented as an extension
 
-If you cannot find an existing issue that describes your bug or feature, create a new issue using the guidelines below.
+When submitting a feature request, explain:
+- What problem it solves
+- How it improves VibeCode
+- Any alternative solutions you've considered
 
-### Writing Good Bug Reports and Feature Requests
+### Issue Checklist
 
-File a single issue per problem and feature request. Do not enumerate multiple bugs or feature requests in the same issue.
+For bug reports, please include:
 
-Do not add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar but have different causes.
+* VibeCode version (Help > About)
+* Operating system and version
+* List of installed extensions
+* Step-by-step instructions to reproduce the issue
+* Expected vs actual behavior
+* Screenshots, screen recordings, or animated GIFs
+* Relevant code snippets or a link to a minimal reproduction repository
+* Any error messages from the Developer Tools (Help > Toggle Developer Tools > Console)
 
-The more information you can provide, the more likely someone will be successful at reproducing the issue and finding a fix.
+## Contributing Code
 
-The built-in tool for reporting an issue, which you can access by using `Report Issue` in VS Code's Help menu, can help streamline this process by automatically providing the version of VS Code, all your installed extensions, and your system info. Additionally, the tool will search among existing issues to see if a similar issue already exists.
+We welcome code contributions! Here's how to get started:
 
-Please include the following with each issue:
+1. Fork the repository and create a new branch
+2. Make your changes following our [coding guidelines](https://github.com/microsoft/vibecode/wiki/Coding-Guidelines)
+3. Write tests for your changes
+4. Ensure all tests pass
+5. Submit a pull request with a clear description of your changes
 
-* Version of VS Code
-* Your operating system
-* List of extensions that you have installed
-* Reproducible steps (1... 2... 3...) that cause the issue
-* What you expected to see, versus what you actually saw
-* Images, animations, or a link to a video showing the issue occurring
-* A code snippet that demonstrates the issue or a link to a code repository the developers can easily pull down to recreate the issue locally
-  * **Note:** Because the developers need to copy and paste the code snippet, including a code snippet as a media file (i.e. .gif) is not sufficient.
-* Errors from the Dev Tools Console (open from the menu: Help > Toggle Developer Tools)
+### Pull Request Guidelines
 
-### Creating Pull Requests
+- Reference any related issues in your PR description
+- Keep changes focused on a single feature or bug fix
+- Follow the existing code style and formatting
+- Update documentation as needed
+- Ensure all tests pass before submitting
 
-* Please refer to the article on [creating pull requests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests) and contributing to this project.
+## Development Setup
 
-### Final Checklist
+To get started with VibeCode development:
 
-Please remember to do the following:
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm run watch` to start the development build
+4. Press F5 to launch a new window with your local build
 
-* [ ] Search the issue repository to ensure your report is a new issue
-* [ ] Recreate the issue after disabling all extensions
-* [ ] Simplify your code around the issue to better isolate the problem
+## Issue Management
 
-Don't feel bad if the developers can't reproduce the issue right away. They will simply ask for more information!
+We use GitHub's built-in features to manage issues:
 
-### Follow Your Issue
-
-Once submitted, your report will go into the [issue tracking](https://github.com/microsoft/vscode/wiki/Issue-Tracking) workflow. Be sure to understand what will happen next, so you know what to expect and how to continue to assist throughout the process.
-
-## Automated Issue Management
-
-We use GitHub Actions to help us manage issues. These Actions and their descriptions can be [viewed here](https://github.com/microsoft/vscode-github-triage-actions). Some examples of what these Actions do are:
-
-* Automatically close any issue marked `info-needed` if there has been no response in the past 7 days.
-* Automatically lock issues 45 days after they are closed.
-* Automatically implement the VS Code [feature request pipeline](https://github.com/microsoft/vscode/wiki/Issues-Triaging#managing-feature-requests).
-
-If you believe the bot got something wrong, please open a new issue and let us know.
-
-## Contributing Fixes
-
-If you are interested in writing code to fix issues, please see [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute) in the wiki.
+- Issues are automatically labeled based on their content
+- Issues marked as `needs-info` will be closed after 7 days of inactivity
+- Feature requests are reviewed regularly by the core team
 
 ## Thank You
 
-Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to contribute.
+Thank you for considering contributing to VibeCode! Your contributions help make VibeCode better for everyone in the community. Whether you're reporting bugs, suggesting features, or submitting code, we appreciate your time and effort.

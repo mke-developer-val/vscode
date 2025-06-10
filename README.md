@@ -1,57 +1,62 @@
-# Visual Studio Code - Open Source ("Code - OSS")
+# VibeCode
 
-[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
-[![Bugs](https://img.shields.io/github/issues/microsoft/vscode/bug.svg)](https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Gitter](https://img.shields.io/badge/chat-on%20gitter-yellow.svg)](https://gitter.im/Microsoft/vscode)
+[![Feature Requests](https://img.shields.io/github/issues/microsoft/vibecode/feature-request.svg)](https://github.com/microsoft/vibecode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
+[![Bugs](https://img.shields.io/github/issues/microsoft/vibecode/bug.svg)](https://github.com/microsoft/vibecode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Gitter](https://img.shields.io/badge/chat-on%20gitter-yellow.svg)](https://gitter.im/Microsoft/vibecode)
 
 ## The Repository
 
-This repository ("`Code - OSS`") is where we (Microsoft) develop the [Visual Studio Code](https://code.visualstudio.com) product together with the community. Not only do we work on code and issues here, we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
+This repository contains the source code for **VibeCode**, a powerful and lightweight code editor based on the Visual Studio Code - Open Source ("Val - Code") project. VibeCode is developed with the community and is available to everyone under the standard [MIT license](https://github.com/microsoft/vibecode/blob/main/LICENSE.txt).
 
-## Visual Studio Code
+## VibeCode
 
 <p align="center">
-  <img alt="VS Code in action" src="https://user-images.githubusercontent.com/35271042/118224532-3842c400-b438-11eb-923d-a5f66fa6785a.png">
+  <img alt="VibeCode in action" src="https://user-images.githubusercontent.com/35271042/118224532-3842c400-b438-11eb-923d-a5f66fa6785a.png">
 </p>
 
-[Visual Studio Code](https://code.visualstudio.com) is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [Microsoft product license](https://code.visualstudio.com/License/).
+VibeCode is a lightweight but powerful source code editor that runs on your desktop and is available for Windows, macOS, and Linux. It comes with built-in support for JavaScript, TypeScript, and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
 
-[Visual Studio Code](https://code.visualstudio.com) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
+VibeCode combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
 
-Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on [Visual Studio Code's website](https://code.visualstudio.com/Download). To get the latest releases every day, install the [Insiders build](https://code.visualstudio.com/insiders).
+VibeCode is regularly updated with new features and bug fixes. You can download it for Windows, macOS, and Linux from the [releases page](https://github.com/microsoft/vibecode/releases).
 
 ## Contributing
 
-There are many ways in which you can participate in this project, for example:
+There are many ways in which you can participate in the VibeCode project, for example:
 
-* [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues), and help us verify as they are checked in
-* Review [source code changes](https://github.com/microsoft/vscode/pulls)
-* Review the [documentation](https://github.com/microsoft/vscode-docs) and make pull requests for anything from typos to additional and new content
+* [Submit bugs and feature requests](https://github.com/microsoft/vibecode/issues), and help us verify as they are checked in
+* Review [source code changes](https://github.com/microsoft/vibecode/pulls)
+* Review the documentation and make pull requests for anything from typos to additional and new content
 
 If you are interested in fixing issues and contributing directly to the code base,
-please see the document [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute), which covers the following:
+please see the document [How to Contribute](https://github.com/microsoft/vibecode/wiki/How-to-Contribute), which covers the following:
 
-* [How to build and run from source](https://github.com/microsoft/vscode/wiki/How-to-Contribute)
-* [The development workflow, including debugging and running tests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#debugging)
-* [Coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines)
-* [Submitting pull requests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests)
-* [Finding an issue to work on](https://github.com/microsoft/vscode/wiki/How-to-Contribute#where-to-contribute)
-* [Contributing to translations](https://aka.ms/vscodeloc)
+* How to build and run from source
+* The development workflow, including debugging and running tests
+* Coding guidelines
+* Submitting pull requests
+* Finding an issue to work on
+* Contributing to translations
 
 ## Feedback
 
-* Ask a question on [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode)
-* [Request a new feature](CONTRIBUTING.md)
-* Upvote [popular feature requests](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
-* [File an issue](https://github.com/microsoft/vscode/issues)
-* Connect with the extension author community on [GitHub Discussions](https://github.com/microsoft/vscode-discussions/discussions) or [Slack](https://aka.ms/vscode-dev-community)
-* Follow [@code](https://twitter.com/code) and let us know what you think!
+We welcome your feedback and contributions! Here's how you can get in touch:
 
-See our [wiki](https://github.com/microsoft/vscode/wiki/Feedback-Channels) for a description of each of these channels and information on some other available community-driven channels.
+* [File an issue](https://github.com/microsoft/vibecode/issues) for bug reports or feature requests
+* Ask a question on [Stack Overflow](https://stackoverflow.com/questions/tagged/vibecode)
+* Upvote [popular feature requests](https://github.com/microsoft/vibecode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
+* Connect with the community on [GitHub Discussions](https://github.com/microsoft/vibecode/discussions)
+* Follow our updates on [Twitter](https://twitter.com/vibecode) and let us know what you think!
 
 ## Related Projects
 
-Many of the core components and extensions to VS Code live in their own repositories on GitHub. For example, the [node debug adapter](https://github.com/microsoft/vscode-node-debug) and the [mono debug adapter](https://github.com/microsoft/vscode-mono-debug) repositories are separate from each other. For a complete list, please visit the [Related Projects](https://github.com/microsoft/vscode/wiki/Related-Projects) page on our [wiki](https://github.com/microsoft/vscode/wiki).
+Many of the core components and extensions to VibeCode live in their own repositories on GitHub. The project is built on top of the Visual Studio Code - Open Source ("Val - Code") project and maintains compatibility with the VS Code extension ecosystem.
+
+VibeCode leverages the [monaco-editor](https://github.com/microsoft/monaco-editor) which is the code editor that powers VS Code, and is compatible with extensions from the VS Code marketplace.
+
+## Extensions
+
+VibeCode supports the rich ecosystem of VS Code extensions. You can find and install extensions directly within the editor or browse the [VS Code Marketplace](https://marketplace.visualstudio.com/vscode).
 
 ## Bundled Extensions
 
@@ -70,10 +75,10 @@ Docker / the Codespace should have at least **4 Cores and 6 GB of RAM (8 GB reco
 
 ## Code of Conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). We welcome contributions from everyone. Please help us create a welcoming and inclusive environment for all contributors.
 
 ## License
 
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-Licensed under the [MIT](LICENSE.txt) license.
+VibeCode is released under the [MIT License](LICENSE.txt).

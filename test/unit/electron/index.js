@@ -238,8 +238,8 @@ app.on('ready', () => {
 		return {
 			product: {
 				version: '1.x.y',
-				nameShort: 'Code - OSS Dev',
-				nameLong: 'Code - OSS Dev',
+				nameShort: 'Val - Code Dev',
+				nameLong: 'Val - Code Dev',
 				applicationName: 'code-oss',
 				dataFolderName: '.vscode-oss',
 				urlProtocol: 'code-oss',
