@@ -2901,7 +2901,7 @@ export class DataTransferItem implements vscode.DataTransferItem {
 }
 
 /**
- * A data transfer item that has been created by VS Code instead of by a extension.
+ * A data transfer item that has been created by Val - Code instead of by a extension.
  *
  * Intentionally not exported to extensions.
  */
@@ -4158,13 +4158,13 @@ export class TimelineItem implements vscode.TimelineItem {
 export enum ExtensionMode {
 	/**
 	 * The extension is installed normally (for example, from the marketplace
-	 * or VSIX) in VS Code.
+	 * or VSIX) in Val - Code.
 	 */
 	Production = 1,
 
 	/**
 	 * The extension is running from an `--extensionDevelopmentPath` provided
-	 * when launching VS Code.
+	 * when launching Val - Code.
 	 */
 	Development = 2,
 

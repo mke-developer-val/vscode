@@ -50,26 +50,26 @@ We welcome your feedback and contributions! Here's how you can get in touch:
 
 ## Related Projects
 
-Many of the core components and extensions to VibeCode live in their own repositories on GitHub. The project is built on top of the Visual Studio Code - Open Source ("Val - Code") project and maintains compatibility with the VS Code extension ecosystem.
+Many of the core components and extensions to VibeCode live in their own repositories on GitHub. The project is built on top of the Visual Studio Code - Open Source ("Val - Code") project and maintains compatibility with the Val - Code extension ecosystem.
 
-VibeCode leverages the [monaco-editor](https://github.com/microsoft/monaco-editor) which is the code editor that powers VS Code, and is compatible with extensions from the VS Code marketplace.
+VibeCode leverages the [monaco-editor](https://github.com/microsoft/monaco-editor) which is the code editor that powers Val - Code, and is compatible with extensions from the Val - Code marketplace.
 
 ## Extensions
 
-VibeCode supports the rich ecosystem of VS Code extensions. You can find and install extensions directly within the editor or browse the [VS Code Marketplace](https://marketplace.visualstudio.com/vscode).
+VibeCode supports the rich ecosystem of Val - Code extensions. You can find and install extensions directly within the editor or browse the [Val - Code Marketplace](https://marketplace.visualstudio.com/vscode).
 
 ## Bundled Extensions
 
-VS Code includes a set of built-in extensions located in the [extensions](extensions) folder, including grammars and snippets for many languages. Extensions that provide rich language support (code completion, Go to Definition) for a language have the suffix `language-features`. For example, the `json` extension provides coloring for `JSON` and the `json-language-features` extension provides rich language support for `JSON`.
+Val - Code includes a set of built-in extensions located in the [extensions](extensions) folder, including grammars and snippets for many languages. Extensions that provide rich language support (code completion, Go to Definition) for a language have the suffix `language-features`. For example, the `json` extension provides coloring for `JSON` and the `json-language-features` extension provides rich language support for `JSON`.
 
 ## Development Container
 
 This repository includes a Visual Studio Code Dev Containers / GitHub Codespaces development container.
 
 * For [Dev Containers](https://aka.ms/vscode-remote/download/containers), use the **Dev Containers: Clone Repository in Container Volume...** command which creates a Docker volume for better disk I/O on macOS and Windows.
-  * If you already have VS Code and Docker installed, you can also click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode) to get started. This will cause VS Code to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
+  * If you already have Val - Code and Docker installed, you can also click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode) to get started. This will cause Val - Code to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
 
-* For Codespaces, install the [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) extension in VS Code, and use the **Codespaces: Create New Codespace** command.
+* For Codespaces, install the [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) extension in Val - Code, and use the **Codespaces: Create New Codespace** command.
 
 Docker / the Codespace should have at least **4 Cores and 6 GB of RAM (8 GB recommended)** to run full build. See the [development container README](.devcontainer/README.md) for more information.
 
